@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Test project til TV2, Henrik Riis
+Dette projekt er lavet ud fra et standard react project,
+der vil derfor forekomme ting som ikke har med opgaven at gøre.
 
-## Available Scripts
+## Projektet startes
 
 In the project directory, you can run:
 
