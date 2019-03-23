@@ -1,36 +1,27 @@
 {
-  "name": "dev_app",
-  "version": "1.0.0",
-  "description": "Weather Application with React",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test-lint": "eslint --ignore-pattern \"build\" --ignore-path .gitignore .",
-    "server": "cd server && node server.js",
-    "client": " cd client && npm run start",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "my-app",
+  "homepage" : "https://github.com/Friis1978/WeatherApp",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "concurrently": "^3.5.1",
-    "es6-promise": "^4.2.4",
-    "express": "^4.16.3",
-    "isomorphic-fetch": "^2.2.1",
-    "node-fetch": "^2.1.2",
-    "nodemon": "^1.17.4",
-    "react-router-dom": "^4.2.2",
-    "redux-saga": "^0.16.0"
+    "query-string": "^6.4.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8"
   },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
-    "eslint-config-strongloop": "^2.1.0",
-    "eslint-plugin-react": "^7.8.2",
-    "module-alias": "2.0.6"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "_moduleAliases": {
-    "root": ".",
-    "routes": "./server/routes",
-    "server": "./server"
-  }
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
