@@ -4,67 +4,25 @@ der vil derfor forekomme ting som ikke har med opgaven at gøre.
 
 ## Projektet startes
 
-In the project directory, you can run:
+Projektet 'clones' til download folder, og pakker skal herefter installeres, det er en forudsætning
+at node.js er indstalleret på computeren.
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Kør app i development mode.<br>
+Åbn i Google chrome [http://localhost:3000](http://localhost:3000)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Prøv at teste indsættelse af parametre i url adressen.<br>
+Åbn i Google chrome [http://localhost:3000?city=Odense](http://localhost:3000?city=Odense)
 
-### `npm test`
+I søgefeltet kan indtastes en hvilken som helst dansk by.<br>
+Prøv f.eks. at skrive 'Ålborg', der skulle gerne komme et resultat.<br>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I appen er en funktion, som skriver den korrekte vindretning ud fra 'grad' tallet, som kan læses fra API kaldets json fil.<br>
+På samme vis skifter svg filen efter hvad vejrsituationen er.<br>
 
-### `npm run build`
+Normalt ville jeg i et react projekt som dette bruge 'redux' til at udvide funktionaliteten, indtil videre er det dog kun de få konstanter som er sat i toppen af App.js
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Projektet lukkes med
+### `npm eject`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
